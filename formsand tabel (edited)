@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+    </header>
+    <br>
+    <main>
+        <section>
+            <h3>student personal information:</h3>
+            <br>
+            <form action="">
+                <div>
+                    <label for="FirstName">First Name:</label>
+                    <input type="text" id="FirstName" name="FName" placeholder="FirstName">
+                    <label for="LastName">Last Name:</label>
+                    <input type="text" id="LastName" name="LName" placeholder="LastName">
+                </div>
+                <br>
+                <div>
+                    <label for="DOB">Date Of Birth:</label>
+                    <input type="date" id="DOB" name="DOB">
+                </div>
+                <br>
+                <div>
+                    <label for="gender">Gender:</label>
+                    <label>
+                        <input type="radio" id="gender"  value="Male" name="gender">Male</label>
+                    <label>
+                        <input type="radio" id="gender"  value="Female" name="gender">Female</label>
+                </div>
+                <br>
+                <div>
+                    <label for="familyNo">Family Number:</label>
+                    <input type="number" id="familyNo" name="Fnum" min="1" max="100">
+                </div>
+                <br>
+                <div>
+                    <label for="address">Present Address:</label>
+                    <input type="text" id="adress" name="adress" placeholder="Adress">
+                </div>
+                <br>
+                <div>
+                    <label for="phonenum">Phone Number:</label>
+                    <input type="text" id="phonenum" name="phonenum" placeholder="PhoneNum">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <br>
+                <div>
+                    <label for="img">Personal Photo:</label>
+                    <input type="file" name="image" id="img">
+                </div>
+        </section>
+        <br>
+        <section>
+            <h3>student Education information:</h3>
+            <br>
+            <div>
+                <label for="edu">Educational Level:</label>
+                <select name="education" id="edu">
+                <option>select Level</option>
+                <option value="school">school</option>
+                <option value="Bachelor's">Bachelor's</option>
+                <option value="Master's">Master's</option>
+                <option value="BHD">BHD</option>
+               </select>
+            </div>
+            <br>
+            <div>
+                <label for="gpa">Your resent GPA:</label>
+                <input type="text" id="gpa" name="gpa" placeholder="GPA">
+            </div>
+            <br>
+            <div>
+                <label for="Resume">Your Resume:</label>
+                <input type="file" name="Resume" id="Resume">
+            </div>
+        </section>
+        </form>
+        <br>
+        <br>
+
+        <section>
+            <table>
+                <tr>
+                    <td>First name</td>
+                    <td>walla</td>
+                    <td>ahmad</td>
+                    <td>alia</td>
+                </tr>
+                <tr>
+                    <td>Last name</td>
+                    <td>hdaib</td>
+                    <td>mohamad</td>
+                    <td>omar</td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td>14/1/200</td>
+                    <td>22/9/200</td>
+                    <td>2/4/200</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>femal</td>
+                    <td>mail</td>
+                    <td>femail</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>amman</td>
+                    <td>amman</td>
+                    <td>irbid</td>
+                </tr>
+                <tr>
+                    <td>PhoneNum</td>
+                    <td>0788806493</td>
+                    <td>0785487234</td>
+                    <td>0795428763</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>walaa1412000gold@gmail.com</td>
+                    <td>sdfsdsf@gmail.com</td>
+                    <td>jgsusdy@gmail.com</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>
