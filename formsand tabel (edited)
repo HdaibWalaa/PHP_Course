@@ -62,6 +62,8 @@
                     <label for="img">Personal Photo:</label>
                     <input type="file" name="image" id="img">
                 </div>
+
+
         </section>
         <br>
         <section>
@@ -88,6 +90,10 @@
                 <input type="file" name="Resume" id="Resume">
             </div>
         </section>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
         </form>
         <br>
         <br>
@@ -114,9 +120,9 @@
                 </tr>
                 <tr>
                     <td>Gender</td>
-                    <td>femal</td>
-                    <td>mail</td>
-                    <td>femail</td>
+                    <td>female</td>
+                    <td>male</td>
+                    <td>female</td>
                 </tr>
                 <tr>
                     <td>Address</td>
