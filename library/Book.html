@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="./assets/css/stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <div id="header-nav">
+            <nav class="navbar navbar-expand-lg navbar-light mx-5 my-2">
+                <nav class="navbar navbar-light">
+                    <a class="navbar-brand" href="./home.html">
+                        <img src="./assets/img/logo.png" width="100" height="50" class="d-inline-block align-top" alt="" />
+                    </a>
+                </nav>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./allbook.html">bookstore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./contact.html">contact</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">&#128722;</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 id="book-name">Talk Like TED</h1>
+            <section>
+                <img src="./assets/img/1.png" class="img-fluid" alt="..." width="450px" height="350px">
+                <h3>Carmine Carllo</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam necessitatibus vero unde aliquam possimus totam ab natus quaerat architecto nemo? Cupiditate voluptatibus dolore rem quis aliquam nobis odio non quidem.</p>
+                <a href="#" class="btn btn-primary">add to carte</a>
+            </section>
+            <hr class="mt-5 mb-2 tags" style="height: 3px" />
+            <div class="display-6 font-weight-normal blue mb-4">Rate this book</div>
+            <fieldset class="starability-heart mb-3">
+                <input type="radio" id="first-rate1" name="rating" value="1">
+                <label for="first-rate1" title="Terrible">1 star</label>
+                <input type="radio" id="first-rate2" name="rating" value="2" />
+                <label for="first-rate2" title="Not good">2 stars</label>
+                <input type="radio" id="first-rate3" name="rating" value="3" />
+                <label for="first-rate3" title="Average">3 stars</label>
+                <input type="radio" id="first-rate4" name="rating" value="4" />
+                <label for="first-rate4" title="Very good">4 stars</label>
+                <input type="radio" id="first-rate5" name="rating" value="5" />
+                <label for="first-rate5" title="Amazing">5 stars</label>
+            </fieldset>
+            <textarea name="body" id="body" rows="4" class="form-control" placeholder="Write a review" required> add your comment</textarea>
+            <div class="d-flex justify-content-end">
+                <button id="review-submit" class="btn btn-sm btn-success my-2" type="submit">
+              Submit
+            </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="home-footer">
+            <div id="footer-FAQ ">
+                <ul>
+                    <li>
+                        FAQ
+                    </li>
+                    <li>
+                        <a href=" ">Sipping&Return</a>
+                    </li>
+                    <li>
+                        <a href=" ">Store Policy</a>
+                    </li>
+                    <li>
+                        <a href=" ">Payment</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="footer-contact ">
+                <ul>
+                    <li>BOOKSHOPE</li>
+                    <li>
+                        <a href="# ">+962 7888 06493</a>
+                    </li>
+                    <li>
+                        <a href="# ">book_OnlineShoping@gmail.com</a>
+                    </li>
+                    <ul class="footer-social ">
+                        <li>
+                            <a href="https://www.facebook.com/?stype=lo&jlou=AfdjoxeYT7h60MUHzFe98yHMS1eLDYbGH3oGUnofJo0fid_STjSXp--UiNMELnIQRBp14lvfEpE2Zo3udcwo3LBY-tko-jBnyz_qg3QNw3fS-Q&smuh=63544&lh=Ac8tPtZ7kgACr0v-PCc "><img src="./assets/img/facebook.webp
+        " alt="feasbook "></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/ "><img src="./assets/img/instagram.webp " alt="insta "></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ "><img src="./assets/img/twitter.webp " alt="twitter "></a>
+                        </li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="footer-sub ">
+                <p>subsicribe to get the newest discount</p>
+                <form action="email ">
+                    <input type="email " id="email " name="email " placeholder="enter your email " required>
+                    <input type="submit " value="join ">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>
